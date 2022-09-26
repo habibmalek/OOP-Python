@@ -46,7 +46,7 @@ obj = Employee( 5 , "Loli")
 # Serialization
 serialize_jsonvar = json.dumps(obj, default = vars)
 print("This is a serialization of an object to JSON file >>> ",serialize_jsonvar)
-# De-Serialization
+# Deserialization
 deserialize_jsonvar = json.loads(serialize_jsonvar)
 print("This is a deserialization of JSON file to Python dictionary >>> ",deserialize_jsonvar)
 
